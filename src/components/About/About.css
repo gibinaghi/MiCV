@@ -1,0 +1,128 @@
+#about {
+    background: #fff;
+}
+
+.title {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.title h2 {
+    font-size: 2.3rem;
+    margin-bottom: 5rem;
+}
+
+.about-content {
+    padding: 20px 30px;
+    margin: 0 2rem;
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7rem;
+}
+
+.about-bg-card {
+   width: 250px;
+    border-radius: 1rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        #b7d5ff,
+        transparent
+    );
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-card {
+    width: 250px;
+    height: 210px;
+    background-color: #144d4a;    
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transform: rotate(10deg);
+    transition: 0.3s;
+    color: #fff;
+}
+
+.about-card:hover {
+    transform: rotate(0);
+    background-color: #b7d5ff;
+    color: #144d4a;
+}
+
+.about-card i {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.about-card h4 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.about-card small {
+    font-size: 1rem;
+}
+
+.about-text {
+    margin : 0 2rem;
+}
+
+.about-text p {
+    text-align: justify;
+    color: #010118;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+  
+}
+
+@media screen and (max-width: 1240px){
+    .about-cards {
+        gap: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .about-cards {
+        display: grid;
+        gap: 3rem;      
+    }
+    .about-card {
+        width: 200px;
+        height: 200px;
+    }
+    .about-card h4,
+    .about-card small,
+    .about-card i {
+        font-size: 16px; 
+    }
+    .about-bg-card {
+        width: 200px;
+    }
+    .title h3 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .about-content {
+        margin: 0;
+    }
+    .about-cards {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .about-text {
+        margin: 2rem 0;
+        padding: 0;
+    }
+}

@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+//import Nav from './components/Nav/Nav';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
+//import ContactMe from './components/ContactMe/ContactMe';
+import About from './components/About/About';
+import Navbar from './components/Navbar';
+import Contacto from './components/ContactMe/Contacto';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Main />
+      <About />
+      <Contacto />
+      <Footer />
     </div>
   );
 }
+
+// eslint-disable-next-line no-restricted-globals
+addEventListener('DOMContentLoaded', () => {
+  const btnMenu = document.querySelector('.btn-menu')
+  if (btnMenu) {
+    btnMenu.addEventListener('click', () => {
+      const menuItems = document.querySelector('.menu-items')
+      menuItems.classList.toggle('show')
+    })
+  }
+});
 
 export default App;
