@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/gibinaghi/MiCV/static/css/main.c6b53186.css",
+    "main.js": "/gibinaghi/MiCV/static/js/main.2473cfac.js",
+    "static/js/787.a59f22f3.chunk.js": "/gibinaghi/MiCV/static/js/787.a59f22f3.chunk.js",
+    "static/media/micv.pdf": "/gibinaghi/MiCV/static/media/micv.caff3ad6e0ff6d05cd91.pdf",
+    "static/media/foto.png": "/gibinaghi/MiCV/static/media/foto.7ec847932ec672529881.png",
+    "index.html": "/gibinaghi/MiCV/index.html",
+    "main.c6b53186.css.map": "/gibinaghi/MiCV/static/css/main.c6b53186.css.map",
+    "main.2473cfac.js.map": "/gibinaghi/MiCV/static/js/main.2473cfac.js.map",
+    "787.a59f22f3.chunk.js.map": "/gibinaghi/MiCV/static/js/787.a59f22f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6b53186.css",
+    "static/js/main.2473cfac.js"
+  ]
+}
